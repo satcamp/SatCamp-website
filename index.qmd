@@ -1,7 +1,5 @@
 ---
-title: "SatCampWebsite"
+title: "SatCamp 2023"
 ---
 
-This is a Quarto website.
-
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+SatCamp is happening.
