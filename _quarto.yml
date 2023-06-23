@@ -1,0 +1,22 @@
+project:
+  type: website
+
+editor:
+  render-on-save: true
+
+website:
+  title: "SatCamp Website"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+
+
