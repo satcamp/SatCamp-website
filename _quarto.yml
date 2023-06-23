@@ -6,7 +6,7 @@ editor:
   render-on-save: true
 
 website:
-  title: "SatCamp Website"
+  title: "SatCamp"
   navbar:
     left:
       - href: index.qmd
