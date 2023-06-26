@@ -6,12 +6,12 @@ editor:
   render-on-save: true
 
 website:
-  title: "SatCamp"
+  title: "SatCamp 2023"
   navbar:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      # - about.qmd
 
 format:
   html:
