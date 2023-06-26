@@ -1,10 +1,8 @@
 ---
-title: "Save the Date"
+title: "Save the Date!"
 ---
 
 SatCamp is a new geospatial event that will allow for more meaningful conversations, connections, and collaboration.
-
-Registration is expected to open in July.
 
 **When:** September 12th-14th, 2023
 
@@ -12,6 +10,8 @@ Registration is expected to open in July.
 
 **What:** Conversations while hiking, biking, climbing, running, and caffeinating!
 
-![](images/midjourney_A_boulder_colorado_mountains_bike_climb_trail_run__4f0c9b58-7e7f-40e2-b551-4caa251ffabd.png)
+Registration is expected to open in July.
 
 See you outside!
+
+![](images/midjourney_A_boulder_colorado_mountains_bike_climb_trail_run__4f0c9b58-7e7f-40e2-b551-4caa251ffabd.png)
