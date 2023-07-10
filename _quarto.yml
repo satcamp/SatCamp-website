@@ -6,18 +6,16 @@ editor:
   render-on-save: true
 
 website:
-  title: "SatCamp 2023"
+  # title: "SatCamp 2023"
   navbar:
+    logo: images/SatCampLogo_White.png
     left:
       - href: index.qmd
         text: Home
-      # - about.qmd
+      # - home.qmd
 
 format:
   html:
     theme: sandstone
     css: styles.css
     toc: true
-
-
-

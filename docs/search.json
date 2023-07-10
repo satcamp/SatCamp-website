@@ -1,5 +1,124 @@
 [
   {
+    "objectID": "tickets.html",
+    "href": "tickets.html",
+    "title": "Tickets",
+    "section": "",
+    "text": "Book your ticket\n\nEventbrite plug-in\n\n\n\n\n\n\n\nImportant\n\n\n\nTodo… add the Eventbright plugin\n\n\n\n\nCode of conduct\n\n\n\n\n\n\nImportant\n\n\n\nShould we just copy SatSummit’s Code of Conduct?"
+  },
+  {
+    "objectID": "home.html",
+    "href": "home.html",
+    "title": "Home",
+    "section": "",
+    "text": "We’ll gather in beautiful Boulder, Colorado to create a new way to connect and belong to the geospatial community using our shared appreciation of the great outdoors."
+  },
+  {
+    "objectID": "home.html#connect-contribute-and-challenge-the-status-quo",
+    "href": "home.html#connect-contribute-and-challenge-the-status-quo",
+    "title": "Home",
+    "section": "Connect, contribute and challenge the status quo",
+    "text": "Connect, contribute and challenge the status quo\n\nEveryone contributes, regardless of your background or level\nEvery contribution is valued, even the provocative ones"
+  },
+  {
+    "objectID": "home.html#non-traditional-setting-for-non-traditional-conversations",
+    "href": "home.html#non-traditional-setting-for-non-traditional-conversations",
+    "title": "Home",
+    "section": "Non-traditional setting for non-traditional conversations",
+    "text": "Non-traditional setting for non-traditional conversations\n\nFocus on the big issues, challenges, and opportunities that unite us.\nBeing outdoors and close to nature reminds us of what we are preserving.\nDismantle hierarchies"
+  },
+  {
+    "objectID": "home.html#deep-exploration-and-connection",
+    "href": "home.html#deep-exploration-and-connection",
+    "title": "Home",
+    "section": "Deep exploration and connection",
+    "text": "Deep exploration and connection\n\nThe agenda includes deliberately unscripted moments punctuated by thoughtful, curated sessions."
+  },
+  {
+    "objectID": "logistics.html",
+    "href": "logistics.html",
+    "title": "Logistics",
+    "section": "",
+    "text": "Lodging at Chautauqua at the foot of the Flatiron mountains in Boulder, CO\nTransportation\n\nTBD"
+  },
+  {
+    "objectID": "logistics.html#footnotes",
+    "href": "logistics.html#footnotes",
+    "title": "Logistics",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\n“On Your Own”↩︎"
+  },
+  {
+    "objectID": "themes.html",
+    "href": "themes.html",
+    "title": "Themes",
+    "section": "",
+    "text": "It feels like we are entering a moment of high velocity change.\nTechnology, particularly advancements in generative AI, is moving quickly."
+  },
+  {
+    "objectID": "themes.html#disruption",
+    "href": "themes.html#disruption",
+    "title": "Themes",
+    "section": "",
+    "text": "It feels like we are entering a moment of high velocity change.\nTechnology, particularly advancements in generative AI, is moving quickly."
+  },
+  {
+    "objectID": "themes.html#climate",
+    "href": "themes.html#climate",
+    "title": "Themes",
+    "section": "Climate",
+    "text": "Climate\n\nClimate Change is the existential threat facing our generation.\nLargely we are stepping up to the challenge."
+  },
+  {
+    "objectID": "themes.html#remote-sensing",
+    "href": "themes.html#remote-sensing",
+    "title": "Themes",
+    "section": "Remote sensing",
+    "text": "Remote sensing\n\nNew LEO and VLEO optical, SAR, thermal and hyperspectral satellites are changing the remote sensing game. Is there a market for all the new data coming online? What new tools, software and analytics do we need to harness the onslaught of data?"
+  },
+  {
+    "objectID": "themes.html#climate-1",
+    "href": "themes.html#climate-1",
+    "title": "Themes",
+    "section": "Climate",
+    "text": "Climate\n\nWith global climate indicators blaring alarms, what can the data and analytics community do to impact the societal conversation? Will current market based approaches be fast enough to move the needle on a global scale? What are viable alternatives given political realities?"
+  },
+  {
+    "objectID": "themes.html#machine-learning-and-ai",
+    "href": "themes.html#machine-learning-and-ai",
+    "title": "Themes",
+    "section": "Machine learning and AI",
+    "text": "Machine learning and AI\n\nNew generative AI capabilities are having massive market impacts and has the attention of the general public. Where do these new capabilities fit into the existing ecosystem of ML geospatial tools. Will it be an incremental or exponential change for the community and market?"
+  },
+  {
+    "objectID": "themes.html#gnssgps",
+    "href": "themes.html#gnssgps",
+    "title": "Themes",
+    "section": "GNSS/GPS",
+    "text": "GNSS/GPS\n\nWith more than a trillion dollars in economic impact GPS/GNSS has been arguably the most impact geospatial technology for the average person. In spite of our economic reliance there has only been incremental improvements in the last decade. New private and public LEO satellite constellations are looking to change this. What are the trade offs in public vs private investment for such a critical infrastructure?"
+  },
+  {
+    "objectID": "themes.html#satellite-builds-and-supply-chains",
+    "href": "themes.html#satellite-builds-and-supply-chains",
+    "title": "Themes",
+    "section": "Satellite builds and supply chains",
+    "text": "Satellite builds and supply chains\n\nBetween the impact of COVID on supply chains and the huge growth of new space satellite ventures the supply of integral satellite components has become very tight. How are new ventures coping with this constrained reality?"
+  },
+  {
+    "objectID": "themes.html#humanitarian-applications",
+    "href": "themes.html#humanitarian-applications",
+    "title": "Themes",
+    "section": "Humanitarian applications",
+    "text": "Humanitarian applications\n\nHow can all the new hardware and AI highlighted above be harnessed to tackle some of society’s most pervasive humanitarian problems? Or are the latest technological advances just more techno-utopian delusions that distract us from the core problems?"
+  },
+  {
+    "objectID": "themes.html#d",
+    "href": "themes.html#d",
+    "title": "Themes",
+    "section": "3D",
+    "text": "3D\n\nThe promise and marketing of the metaverse ramped up excitement for building a digital twin of the world. Now, as the metaverse enters its trough of disillusionment is there a real business or societal case for a perpetually updating global scale 3D model of the earth?"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Save the Date!",

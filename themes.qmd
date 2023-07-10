@@ -1,0 +1,43 @@
+---
+title: "Themes"
+---
+
+## Disruption
+
+- It feels like we are entering a moment of high velocity change. 
+- Technology, particularly advancements in generative AI, is moving quickly. 
+
+## Climate
+
+- Climate Change is the existential threat facing our generation. 
+- Largely we are stepping up to the challenge. 
+
+# What will we be discussing
+
+## Remote sensing
+
+- New [LEO and VLEO](https://en.wikipedia.org/wiki/Low_Earth_orbit) optical, SAR, thermal and hyperspectral satellites are changing the remote sensing game. Is there a market for all the new data coming online? What new tools, software and analytics do we need to harness the onslaught of data?
+
+## Climate
+
+- With global [climate indicators](https://climate.copernicus.eu/climate-indicators) blaring alarms, what can the data and analytics community do to impact the societal conversation? Will current market based approaches be fast enough to move the needle on a global scale? What are viable alternatives given political realities?
+
+## Machine learning and AI
+
+- New [generative AI](https://en.wikipedia.org/wiki/Generative_artificial_intelligence) capabilities are having massive market impacts and has the attention of the general public. Where do these new capabilities fit into the existing ecosystem of ML geospatial tools. Will it be an incremental or exponential change for the community and market?
+
+## GNSS/GPS
+
+- With more than a trillion dollars in economic impact [GPS/GNSS](https://en.wikipedia.org/wiki/Satellite_navigation) has been arguably the most impact geospatial technology for the average person. In spite of our economic reliance there has only been incremental improvements in the last decade. New private and public [LEO](https://en.wikipedia.org/wiki/Low_Earth_orbit) satellite constellations are looking to change this. What are the trade offs in public vs private investment for such a critical infrastructure?
+
+## Satellite builds and supply chains
+
+- Between the impact of COVID on supply chains and the huge growth of new space satellite ventures the supply of integral satellite components has become very tight. How are new ventures coping with this constrained reality?
+
+## Humanitarian applications
+
+- How can all the new hardware and AI highlighted above be harnessed to tackle some of society's most pervasive humanitarian problems? Or are the latest technological advances just more [techno-utopian](https://en.wikipedia.org/wiki/Technological_utopianism) delusions that distract us from the core problems?
+
+## 3D
+
+- The promise and marketing of the metaverse ramped up excitement for building a digital twin of the world. Now, as the metaverse enters its [trough of disillusionment](https://en.wikipedia.org/wiki/Gartner_hype_cycle) is there a real business or societal case for a perpetually updating global scale 3D model of the earth?
