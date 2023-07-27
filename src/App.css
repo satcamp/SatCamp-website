@@ -1,0 +1,39 @@
+.intro-background-img {
+  background-image: url('assets/images/intro-background.jpg');
+}
+.bg-image-sat {
+  background-image: url('assets/images/sat.jpg');
+}
+.bg-image-sat2 {
+  background-image: url('assets/images/sat2.jpg');
+}
+.bg-image-forest {
+  background-image: url('assets/images/forest.jpg');
+}
+.bg-image-chip {
+  background-image: url('assets/images/chip.jpg');
+}
+.bg-image-gps {
+  background-image: url('assets/images/gps.jpg');
+}
+.bg-image-hands {
+  background-image: url('assets/images/hands.jpg');
+}
+.bg-image-globe {
+  background-image: url('assets/images/globe.jpg');
+}
+.bg-image-logistics {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%), url('assets/images/logistics.jpg'); 
+}
+.bg-image-hiking {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.32) 0%, rgba(0, 0, 0, 0.32) 100%), url('assets/images/hiking.jpg'); 
+}
+.bg-image-cycling {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.32) 0%, rgba(0, 0, 0, 0.32) 100%), url('assets/images/cycling.jpg'); 
+}
+.bg-image-climbing {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.32) 0%, rgba(0, 0, 0, 0.32) 100%), url('assets/images/climbing.jpg'); 
+}
+.bg-image-coffee {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.32) 0%, rgba(0, 0, 0, 0.32) 100%), url('assets/images/coffee.jpg'); 
+}
