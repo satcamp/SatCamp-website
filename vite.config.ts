@@ -7,4 +7,5 @@ export default defineConfig({
     port: 9000,
   },
   plugins: [react(), svgr()],
+  base: "/",
 });
