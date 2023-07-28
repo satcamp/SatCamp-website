@@ -8,13 +8,15 @@ export const Section = (
     id={id}
     className={`w-full flex flex-col items-center ${dark ? " bg-secondary text-white" : "" } ${className}`}
   >
-    <div className="w-full md:w-5/6 flex flex-row">
+    <div className="w-full px-5 md:px-0 md:w-5/6 md:flex md:flex-row">
       { children }
     </div>
   </section>;
 
 export const LeftColumn = ({ children }: HTMLAttributes<HTMLElement>) =>
-  <div className="w-full md:w-1/3">{ children }</div>;
+  <div className="relative w-full md:w-1/3 ">
+    <div className="sticky top-12">{ children }</div>
+  </div>;
 
 export const RightColumn = ({ children }: HTMLAttributes<HTMLElement>) =>
   <div className="w-full md:w-3/5 mb-24 font-light text-xl">{ children }</div>;
