@@ -89,7 +89,7 @@ export const ActivitiesSection = () => {
   return (
     <section className="w-full h-screen bg-secondary text-white" id="activities">
       <div className={`w-full h-screen flex flex-col items-center bg-top bg-cover bg-image-${activeTab}`}>
-        <div className="w-full md:w-5/6 h-screen">
+        <div className="w-5/6 h-screen">
           <SectionTitle>Activities</SectionTitle>
           <div className="mt-4">
             {TABS.map((tab) =>
@@ -98,13 +98,13 @@ export const ActivitiesSection = () => {
               </Tab>
             )}
           </div>
-          <div className="flex flex-row w-full mb-12 place-self-end">
+          <div className="md:flex md:flex-row w-full px-5 md:px-0 mb-12 place-self-end">
             <div className="w-full md:w-3/5">
-              <h1 className="text-9xl mt-32 font-normal">{ tab.name }</h1>
+              <h1 className="md:text-9xl text-7xl md:mt-32 mt-12 font-normal">{ tab.name }</h1>
             </div>
-            <div className="w-full md:w-auto items-end mt-32">
+            <div className="w-full md:flex md:w-auto items-end md:mt-32 mt-12">
               {tab.routes && (
-                <div className="p-6 text-xl rounded-lg bg-white text-primary-fg">
+                <div className="md:p-6 p-4 text-xl rounded-lg bg-white text-primary-fg">
                   <h3 className="font-bold text-3xl pb-3">Sample Routes:</h3>
                   {tab.routes?.map((route) =>
                     <p className="py-2 font-light" key={route.name}>
