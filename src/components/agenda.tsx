@@ -19,7 +19,7 @@ export function AgendaSection() {
         <List>
           <Item>8:00am Breakfast</Item>
           <Item>8:30am Start of content</Item>
-          <Item>Morning resentations and discussion</Item>
+          <Item>Morning presentations and discussion</Item>
           <Item>Lunch provided in to-go boxes for activities</Item>
           <Item>Outdoor activities (hiking, biking, coffee/brewery, bouldering)</Item>
           <Item>Activity debrief, afternoon presentations and discussion</Item>
