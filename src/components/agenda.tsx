@@ -22,7 +22,7 @@ export function AgendaSection() {
           <Item>Morning presentations and discussion</Item>
           <Item>Lunch provided in to-go boxes for activities</Item>
           <Item>Outdoor activities (hiking, biking, coffee/brewery, bouldering)</Item>
-          <Item>2:30-5:00 Afternoon presentations and discussion</Item>
+          <Item>2:30-5:00pm Afternoon presentations and discussion</Item>
         </List>
         <SubSectionTitle>Thursday September 14th, 2023</SubSectionTitle>
         <List>
