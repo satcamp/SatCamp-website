@@ -42,9 +42,9 @@ export const MainNav = () =>
       )}
     </div>
     <div className="flex items-center md:w-1/4 w-1/2">
-      <a className="ml-auto" href="https://buytickets.at/satcamp/968045">
+      {/* <a className="ml-auto" href="https://buytickets.at/satcamp/968045">
         <Button state="outline" className="md:py-5 md:px-7 uppercase">Get Ticket</Button>
-      </a>
+      </a> */}
       <div className="hidden">
         <NavMenu />
       </div>

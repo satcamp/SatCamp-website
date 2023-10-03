@@ -13,7 +13,7 @@ export function IntroductionSection() {
           <p className="text-5xl md:text-6xl w-5/6 mt-4 text-center">
             is a conference unlike anything you’ve ever attended
           </p>
-          <div className="mt-10">
+          {/* <div className="mt-10">
             <a href="https://buytickets.at/satcamp/968045">
               <Button
                 state="filled"
@@ -22,7 +22,7 @@ export function IntroductionSection() {
                 Get Ticket
               </Button>
             </a>
-          </div>
+          </div> */}
           <div className="text-2xl mt-32 pb-4 border-b-1 border-white md:grid grid-cols-2 font-normal">
             <div>September 12th-14th, 2023</div>
             <div className="md:text-right pt-1 md:pt-0 text-gray-400">
