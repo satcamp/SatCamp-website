@@ -13,10 +13,10 @@ export function IntroductionSection() {
             <a href="https://docs.google.com/forms/d/e/1FAIpQLSe4ICr0x0TLxqEauIV2prDut0pxd5fA6AcYEqwd89mR-9WTjA/viewform">
               <Button
                 state="filled"
-                className="py-7 px-20 uppercase text-xl font-bold"
+                className="py-10 px-20 uppercase text-xl font-bold"
               >
-                SATCAMP 2024 dates: Oct 1-3<br/>
-                Get Notified about SatCamp 2024
+                Next SatCamp: Oct 1-3, 2024<br/>
+                Click Here to Get Notified about SatCamp
               </Button>
             </a>
           </div>
