@@ -15,6 +15,7 @@ export function IntroductionSection() {
                 state="filled"
                 className="py-7 px-20 uppercase text-xl font-bold"
               >
+                SATCAMP 2024 dates: Oct 1-3<br/>
                 Get Notified about SatCamp 2024
               </Button>
             </a>
@@ -24,7 +25,7 @@ export function IntroductionSection() {
             is a conference unlike anything you’ve ever attended
           </p>
           <div className="text-2xl mt-32 pb-4 border-b-1 border-white md:grid grid-cols-2 font-normal">
-            <div>September 12th-14th, 2023</div>
+            <div>October 1st-3rd, 2024</div>
             <div className="md:text-right pt-1 md:pt-0 text-gray-400">
               Boulder, Colorado, USA
             </div>

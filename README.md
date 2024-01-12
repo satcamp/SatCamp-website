@@ -1,4 +1,4 @@
-# SatCamp 2023 website
+# SatCamp website
 
 ## Getting started
 
