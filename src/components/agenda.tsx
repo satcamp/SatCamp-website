@@ -1,5 +1,5 @@
 import { SectionTitle, SubSectionTitle, List, Item, Section, LeftColumn, RightColumn } from "./sections";
-
+import { Button } from "./base/button";
 
 export function AgendaSection() {
   return (
@@ -8,6 +8,19 @@ export function AgendaSection() {
         <SectionTitle>Agenda</SectionTitle>
       </LeftColumn>
       <RightColumn>
+
+        <div className="mt-10">
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSe4ICr0x0TLxqEauIV2prDut0pxd5fA6AcYEqwd89mR-9WTjA/viewform">
+              <Button
+                state="filled"
+                className="py-10 px-20 text-xl font-bold bg-yellow-500"
+              >
+                2024 Agenda is Under Construction !<br/>
+                ( See example agenda below )
+              </Button>
+            </a>
+          </div>
+
         <SubSectionTitle>Tuesday September 12th, 2023</SubSectionTitle>
         <List>
           <Item>11:30am Arrival at Chautauqua Lodge</Item>
