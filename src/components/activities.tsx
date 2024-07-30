@@ -18,7 +18,7 @@ const TABS = [
         url: "https://www.strava.com/routes/3108251414394395536",
       },
       {
-        name: "Green",
+        name: "Green Mountain Loop",
         url: "https://www.strava.com/routes/3108253232053165164",
       },
       {
