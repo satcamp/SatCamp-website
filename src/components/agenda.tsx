@@ -10,7 +10,7 @@ export function AgendaSection() {
       <RightColumn>
 
         <div className="mt-10">
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSe4ICr0x0TLxqEauIV2prDut0pxd5fA6AcYEqwd89mR-9WTjA/viewform">
+            <a href="#agenda">
               <Button
                 state="filled"
                 className="py-10 px-20 text-xl font-bold bg-yellow-500"

@@ -8,7 +8,7 @@ import {
 
 export function DiscussionsSection() {
   return (
-    <Section>
+    <Section id="discussions">
       <LeftColumn>
         <SectionTitle>What will we be discussing</SectionTitle>
       </LeftColumn>
