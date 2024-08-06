@@ -31,8 +31,7 @@ export function LogisticsSection() {
         <p className="ml-12 text-light">
           <a className="underline underline-offset-2" href="https://www.tickettailor.com/events/satcamp/1316756" target="_blank">Get your ticket here</a> 
           &nbsp;or <a className="underline underline-offset-2" href="https://docs.google.com/forms/d/e/1FAIpQLSeCDeEYpCaGfXJSs6Z-atFfm9kan5U6j2ZUTdBJGrS0mJvKUA/viewform" target="_blank">
-          apply for a scholarship here</a>. Currently, only "Superhero" and "Scholarship Sponsor" are available for everyone. "Early Access" tickets are available for those with an access code. 
-          &nbsp;General tickets will be open to all within a few days!
+          apply for a scholarship here</a>. Ticket quantities are limited and selling quickly so get yours soon!
         </p>
       </RightColumn>
     </Section>

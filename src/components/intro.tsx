@@ -15,8 +15,8 @@ export function IntroductionSection() {
                 state="filled"
                 className="py-10 px-20 mx-5 uppercase text-xl font-bold bg-yellow-200"
               >
-                Early Access Tickets are Available!<br/>
-                Click here to get your ticket
+                Tickets are available and selling fast!<br/>
+                Click here to get yours
               </Button>
             </a>
           </div>
