@@ -46,10 +46,6 @@ export function AgendaSection() {
           <Item>Recap & reflections</Item>
           <Item>4:00pm Adjourn</Item>
         </List>
-        <SubSectionTitle>Friday October 4th, 2024</SubSectionTitle>
-        <List>
-          <Item>9am-4pm Optional hackathon</Item>
-        </List>
       </RightColumn>
     </Section>
   );
