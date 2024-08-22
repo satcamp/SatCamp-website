@@ -35,6 +35,11 @@ export const SubSectionTitle = ({ children, image_name, flex }: HTMLAttributes<H
     </h3>
   </div>;
 
+export const LocationDesc = ({ children, image_name, flex }: HTMLAttributes<HTMLElement> & {image_name?: string, flex?: boolean}) =>
+    <h2 className={`font-bold text-2xl pb-7 mt-0 ${flex ? "flex flex-auto flex-row" : ""}`}>
+      Location: { children }
+    </h2>;
+
 export const List = ({ children }: HTMLAttributes<HTMLElement>) =>
   <ul className="list-disc ml-8 marker:text-sm font-light text-xl">{ children }</ul>;
 
