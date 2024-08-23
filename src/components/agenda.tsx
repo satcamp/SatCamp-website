@@ -30,7 +30,7 @@ export function AgendaSection() {
           <Item>3:15pm Welcome talks and scene setting</Item>
           <Item>4:00pm Panel talks</Item>
           <Item>4:00pm Unstructured time / travel to downtown Boulder</Item>
-          <Item>6:30pm Happy Hour at Avanti Rooftop</Item>
+          <Item>6:30pm Happy Hour at <a href="https://boulder.avantifandb.com/">Avanti Rooftop</a></Item>
         </List>
         <SubSectionTitle>Wednesday October 2nd, 2024</SubSectionTitle>
         <List>
