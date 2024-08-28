@@ -16,22 +16,9 @@ export function DiscussionsSection() {
         <SubSectionTitle image_name="sat">Satellite Data as a Business</SubSectionTitle>
         <p>
           What’s the right way to fund a new satellite that serves a public good?
+          Is there sufficient demand among industries outside of defense to sustain fleets of private satellites?
           Should each sector have their own satellite fleet?
-        </p>
-        <SubSectionTitle image_name="forest">Climate</SubSectionTitle>
-        <p>
-          With global{" "}
-          <a
-            className="underline underline-offset-2"
-            href="https://climate.copernicus.eu/climate-indicators"
-            target="_blank"
-          >
-            climate indicators
-          </a>{" "}
-          blaring alarms, what can the data and analytics community do to impact
-          the societal conversation? Will current market based approaches be
-          fast enough to move the needle on a global scale? What are viable
-          alternatives given political realities?
+          How do you have open data when the data is so expensive to get?
         </p>
         <SubSectionTitle image_name="chip">
           GeoAI and Remote Sensing
