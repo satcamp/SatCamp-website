@@ -16,7 +16,9 @@ export function DiscussionsSection() {
         <SubSectionTitle image_name="sat">Satellite Data as a Business</SubSectionTitle>
         <p>
           What’s the right way to fund a new satellite that serves a public good?
+          Is there sufficient demand among industries outside of defense to sustain fleets of private satellites?
           Should each sector have their own satellite fleet?
+          How do you have open data when the data is so expensive to get?
         </p>
         <SubSectionTitle image_name="chip">
           GeoAI and Remote Sensing
