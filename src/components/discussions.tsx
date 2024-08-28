@@ -103,20 +103,6 @@ export function DiscussionsSection() {
           </a>{" "}
           delusions that distract us from core problems?
         </p>
-        <SubSectionTitle image_name="globe">3D</SubSectionTitle>
-        <p>
-          The promises and marketing of the metaverse has increased interest in
-          building digital twins of our world. As the metaverse enters a{" "}
-          <a
-            className="underline underline-offset-2"
-            href="https://en.wikipedia.org/wiki/Gartner_hype_cycle"
-            target="_blank"
-          >
-            trough of disillusionment
-          </a>{" "}
-          is there a real business or societal case for a perpetually updating
-          global scale 3D model of the earth?
-        </p>
       </RightColumn>
     </Section>
   );
