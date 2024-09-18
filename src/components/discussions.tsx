@@ -33,10 +33,19 @@ export function DiscussionsSection() {
             generative AI
           </a>{" "}
           has tremendous potential to impact geospatial practices and
-          industries. Is spatial actually special in the case of foundational models?
-          What would the “geo” equivalent of GPT look like? What’s the best way to encode space and time?
+          industries. Is spatial actually special in the case of machine learning models? What can AI add to physics based models?
+          Is satellite imagery a distinct modality from natural images? What’s the best way to encode space and time?
           What can foundational models offer us that traditional methods of analysis can't?
         </p>
+        <h1>Panelists</h1>
+        <div className="grid grid-cols-4">
+          <img src="/src/assets/images/headshots/EstherRolf.jpg" alt="Esther Rolf" className={`rounded-full h-28 my-4`}/> <p className={`p-2`}>Esther Rolf Professor of Computer Science CU Boulder</p>
+          <img src="/src/assets/images/headshots/DmitriiKochkov.jpg" alt="Dmitrii Kochkov" className={`rounded-full h-28 my-4`}/> Dmitrii Kochkov
+          <img src="/src/assets/images/headshots/DanielaMoody.jpg" alt="Daniela Moody" className={`rounded-full h-28 my-4`}/> Daniela Moody
+          <img src="/src/assets/images/headshots/GrantBuster.jpg" alt="Grant Buster" className={`rounded-full h-28 my-4`}/> Grant Buster
+        </div>
+        <div className={``}>
+        </div>
         <SubSectionTitle image_name="sat2">
           Geo Platforms as a Business
         </SubSectionTitle>
