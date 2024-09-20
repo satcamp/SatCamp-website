@@ -15,8 +15,8 @@ export function IntroductionSection() {
                 state="filled"
                 className="py-10 px-20 mx-5 uppercase text-xl font-bold bg-yellow-200"
               >
-                Tickets are available and selling fast!<br/>
-                Click here to get yours
+                SatCamp 2024 is sold out!!!<br/>
+                Click here to join the wait list
               </Button>
             </a>
           </div>
