@@ -16,7 +16,7 @@ export function IntroductionSection() {
                 className="py-10 px-20 mx-5 uppercase text-xl font-bold bg-yellow-200"
               >
                 SatCamp 2024 is sold out!!!<br/>
-                Click here to join the wait list
+                Click here to join the waitlist
               </Button>
             </a>
           </div>
