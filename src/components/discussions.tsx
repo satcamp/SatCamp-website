@@ -23,13 +23,13 @@ export function DiscussionsSection() {
         <h4 className={"font-bold text-2xl mt-2"}>Panelists</h4>
         <div className="grid grid-cols-4 items-center">
           <div className="flex justify-end"><img src="/src/assets/images/headshots/BillGreer.jpg" alt="Bill Greer" className={`rounded-full h-28 my-4 mr-2`}/></div>
-          <p className={`p-2`}><a href="https://www.linkedin.com/in/billfgreer/" className="underline">Bill Greer</a><br/>Co-Founder @ Ctrl Shift</p>
+          <p className={`p-2`}><a href="https://www.linkedin.com/in/billfgreer/" className="underline">Bill Greer</a><br/>Ctrl Shift</p>
           <div className="flex justify-end"><img src="/src/assets/images/headshots/JustusKilian.jpg" alt="Justus Kilian" className={`rounded-full h-28 my-4 mr-2`}/></div>
           <p className={`p-2`}><a href="https://www.linkedin.com/in/justuskilian/" className="underline">Justus Kilian</a><br/>Space Capital</p>
           <div className="flex justify-end"><img src="/src/assets/images/headshots/LaurynGutowski.png" alt="Lauryn Gutowski" className={`rounded-full h-28 my-4 mr-2`}/></div>
           <p className={`p-2`}><a href="https://www.linkedin.com/in/ldgutowski/" className="underline">Lauryn Gutowski</a><br/>Albedo</p>
           <div className="flex justify-end"><img src="/src/assets/images/headshots/Mystery.jpg" alt="4th Panelist" className={`rounded-full h-28 my-4 mr-2`}/></div>
-          <p className={`p-2`}>4th Panelist<br/>INGO</p>
+          <p className={`p-2`}>4th Panelist<br/>International NGO</p>
           {/* in case the 4th panelist gives permission to share her details, uncomment below, replace the 2 lines above*/}
           {/* <div className="flex justify-end"><img src="/src/assets/images/headshots/MicahFarfour.jpg" alt="Micah Farfour" className={`rounded-full h-28 my-4 mr-2`}/></div>
           <p className={`p-2`}><a href="https://www.linkedin.com/in/micahfarfour/" className="underline">Micah Farfour</a><br/>Amnesty International</p> */}
@@ -47,7 +47,7 @@ export function DiscussionsSection() {
             generative AI
           </a>{" "}
           has tremendous potential to impact geospatial practices and
-          industries. Is spatial actually special in the case of machine learning models? What can AI add to physics based models?
+          industries. Is spatial actually special in the case of machine learning models? What can AI add to physics-based models?
           Is satellite imagery a distinct modality from natural images? What’s the best way to encode space and time?
           What can foundational models offer us that traditional methods of analysis can't?
         </p>
