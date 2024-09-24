@@ -6,6 +6,16 @@ import {
   RightColumn,
 } from "./sections";
 
+import BillGreer from "../assets/images/headshots/BillGreer.jpg";
+import JustusKilian from "../assets/images/headshots/JustusKilian.jpg";
+import LaurynGutowski from "../assets/images/headshots/LaurynGutowski.png";
+import Mystery from "../assets/images/headshots/Mystery.jpg";
+// import MicahFarfour from "../assets/images/headshots/MicahFarfour.jpg";
+import EstherRolf from "../assets/images/headshots/EstherRolf.jpg";
+import DmitriiKochkov from "../assets/images/headshots/DmitriiKochkov.jpg";
+import DanielaMoody from "../assets/images/headshots/DanielaMoody.jpg";
+import GrantBuster from "../assets/images/headshots/GrantBuster.jpg";
+
 export function DiscussionsSection() {
   return (
     <Section id="discussions">
@@ -22,16 +32,16 @@ export function DiscussionsSection() {
         </p>
         <h4 className={"font-bold text-2xl mt-2"}>Panelists</h4>
         <div className="grid grid-cols-4 items-center">
-          <div className="flex justify-end"><img src="/src/assets/images/headshots/BillGreer.jpg" alt="Bill Greer" className={`rounded-full h-28 my-4 mr-2`}/></div>
+          <div className="flex justify-end"><img src={BillGreer} alt="Bill Greer" className={`rounded-full h-28 my-4 mr-2`}/></div>
           <p className={`p-2`}><a href="https://www.linkedin.com/in/billfgreer/" className="underline">Bill Greer</a><br/>Ctrl Shift</p>
-          <div className="flex justify-end"><img src="/src/assets/images/headshots/JustusKilian.jpg" alt="Justus Kilian" className={`rounded-full h-28 my-4 mr-2`}/></div>
+          <div className="flex justify-end"><img src={JustusKilian} alt="Justus Kilian" className={`rounded-full h-28 my-4 mr-2`}/></div>
           <p className={`p-2`}><a href="https://www.linkedin.com/in/justuskilian/" className="underline">Justus Kilian</a><br/>Space Capital</p>
-          <div className="flex justify-end"><img src="/src/assets/images/headshots/LaurynGutowski.png" alt="Lauryn Gutowski" className={`rounded-full h-28 my-4 mr-2`}/></div>
+          <div className="flex justify-end"><img src={LaurynGutowski} alt="Lauryn Gutowski" className={`rounded-full h-28 my-4 mr-2`}/></div>
           <p className={`p-2`}><a href="https://www.linkedin.com/in/ldgutowski/" className="underline">Lauryn Gutowski</a><br/>Albedo</p>
-          <div className="flex justify-end"><img src="/src/assets/images/headshots/Mystery.jpg" alt="4th Panelist" className={`rounded-full h-28 my-4 mr-2`}/></div>
+          <div className="flex justify-end"><img src={Mystery} alt="4th Panelist" className={`rounded-full h-28 my-4 mr-2`}/></div>
           <p className={`p-2`}>4th Panelist<br/>International NGO</p>
           {/* in case the 4th panelist gives permission to share her details, uncomment below, replace the 2 lines above*/}
-          {/* <div className="flex justify-end"><img src="/src/assets/images/headshots/MicahFarfour.jpg" alt="Micah Farfour" className={`rounded-full h-28 my-4 mr-2`}/></div>
+          {/* <div className="flex justify-end"><img src={MicahFarfour} alt="Micah Farfour" className={`rounded-full h-28 my-4 mr-2`}/></div>
           <p className={`p-2`}><a href="https://www.linkedin.com/in/micahfarfour/" className="underline">Micah Farfour</a><br/>Amnesty International</p> */}
         </div>
         <SubSectionTitle image_name="chip">
@@ -53,13 +63,13 @@ export function DiscussionsSection() {
         </p>
         <h4 className={"font-bold text-2xl mt-2"}>Panelists</h4>
         <div className="grid grid-cols-4 items-center">
-          <div className="flex justify-end"><img src="/src/assets/images/headshots/EstherRolf.jpg" alt="Esther Rolf" className={`rounded-full h-28 my-4 mr-2`}/></div>
+          <div className="flex justify-end"><img src={EstherRolf} alt="Esther Rolf" className={`rounded-full h-28 my-4 mr-2`}/></div>
           <p className={`p-2`}><a href="https://www.estherrolf.com/" className="underline">Esther Rolf</a><br/>CU Boulder</p>
-          <div className="flex justify-end"><img src="/src/assets/images/headshots/DmitriiKochkov.jpg" alt="Dmitrii Kochkov" className={`rounded-full h-28 my-4 mr-2`}/></div>
+          <div className="flex justify-end"><img src={DmitriiKochkov} alt="Dmitrii Kochkov" className={`rounded-full h-28 my-4 mr-2`}/></div>
           <p className={`p-2`}><a href="https://www.linkedin.com/in/dmitrii-kochkov/" className="underline">Dmitrii Kochkov</a><br/>Google</p>
-          <div className="flex justify-end"><img src="/src/assets/images/headshots/DanielaMoody.jpg" alt="Daniela Moody" className={`rounded-full h-28 my-4 mr-2`}/></div>
+          <div className="flex justify-end"><img src={DanielaMoody} alt="Daniela Moody" className={`rounded-full h-28 my-4 mr-2`}/></div>
           <p className={`p-2`}><a href="https://www.linkedin.com/in/danielamoody/" className="underline">Daniela Moody</a><br/>Descartes Labs</p>
-          <div className="flex justify-end"><img src="/src/assets/images/headshots/GrantBuster.jpg" alt="Grant Buster" className={`rounded-full h-28 my-4 mr-2`}/></div>
+          <div className="flex justify-end"><img src={GrantBuster} alt="Grant Buster" className={`rounded-full h-28 my-4 mr-2`}/></div>
           <p className={`p-2`}><a href="https://research-hub.nrel.gov/en/persons/grant-buster" className="underline">Grant Buster</a><br/>NREL</p>
         </div>
         <SubSectionTitle image_name="sat2">
