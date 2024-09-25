@@ -28,8 +28,9 @@ export function AgendaSection() {
             <Item>Option 2: Acclimatization activities (hikes, games)</Item>
           </List>
           <Item>3:15pm Welcome talk, scene setting & activities</Item>
-          <Item>4:00pm Small group activities</Item>
-          <Item>5:00pm Unstructured time / travel to downtown Boulder</Item>
+          <Item>4:00pm Cabin check-in</Item>
+          <Item>4:30pm Small group activities</Item>
+          <Item>5:30pm Unstructured time / travel to downtown Boulder</Item>
           <Item>6:30pm Happy Hour at <a href="https://boulder.avantifandb.com/">Avanti Rooftop</a></Item>
         </List>
         <SubSectionTitle>Wednesday October 2nd, 2024</SubSectionTitle>
@@ -40,7 +41,7 @@ export function AgendaSection() {
           <Item>12:00pm Lunch</Item>
           <Item>1:00pm Lightning talks (part 1)</Item>
           <Item>2:00pm Panel talk: GeoAI</Item>
-          <Item>3:00pm Small group activities</Item>
+          <Item>3:15pm Small group activities</Item>
           <Item>4:00pm Panel talk: Satellite Business Models</Item>
           <Item>6:30pm Small group dinners (self-organized)</Item>
         </List>
