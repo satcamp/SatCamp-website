@@ -9,8 +9,7 @@ import {
 import BillGreer from "../assets/images/headshots/BillGreer.jpg";
 import JustusKilian from "../assets/images/headshots/JustusKilian.jpg";
 import LaurynGutowski from "../assets/images/headshots/LaurynGutowski.png";
-import Mystery from "../assets/images/headshots/Mystery.jpg";
-// import MicahFarfour from "../assets/images/headshots/MicahFarfour.jpg";
+import MicahFarfour from "../assets/images/headshots/MicahFarfour.jpg";
 import EstherRolf from "../assets/images/headshots/EstherRolf.jpg";
 import DmitriiKochkov from "../assets/images/headshots/DmitriiKochkov.jpg";
 import DanielaMoody from "../assets/images/headshots/DanielaMoody.jpg";
@@ -38,11 +37,8 @@ export function DiscussionsSection() {
           <p className={`p-2`}><a href="https://www.linkedin.com/in/justuskilian/" className="underline">Justus Kilian</a><br/>Space Capital</p>
           <div className="flex justify-end"><img src={LaurynGutowski} alt="Lauryn Gutowski" className={`rounded-full h-28 my-4 mr-2`}/></div>
           <p className={`p-2`}><a href="https://www.linkedin.com/in/ldgutowski/" className="underline">Lauryn Gutowski</a><br/>Albedo</p>
-          <div className="flex justify-end"><img src={Mystery} alt="4th Panelist" className={`rounded-full h-28 my-4 mr-2`}/></div>
-          <p className={`p-2`}>4th Panelist<br/>International NGO</p>
-          {/* in case the 4th panelist gives permission to share her details, uncomment below, replace the 2 lines above*/}
-          {/* <div className="flex justify-end"><img src={MicahFarfour} alt="Micah Farfour" className={`rounded-full h-28 my-4 mr-2`}/></div>
-          <p className={`p-2`}><a href="https://www.linkedin.com/in/micahfarfour/" className="underline">Micah Farfour</a><br/>Amnesty International</p> */}
+          <div className="flex justify-end"><img src={MicahFarfour} alt="Micah Farfour" className={`rounded-full h-28 my-4 mr-2`}/></div>
+          <p className={`p-2`}><a href="https://www.linkedin.com/in/micahfarfour/" className="underline">Micah Farfour</a><br/>Amnesty International</p>
         </div>
         <SubSectionTitle image_name="chip">
           GeoAI and Remote Sensing
