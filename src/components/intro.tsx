@@ -10,13 +10,13 @@ export function IntroductionSection() {
         <MainNav />
         <div className="w-full px-5 md:px-0 md:w-5/6 relative mt-20 flex flex-col items-center">
           <div className="mt-10">
-            <a href="https://www.tickettailor.com/events/satcamp/1316756">
+            <a href="https://forms.gle/yFi19miVd4urTFCz9">
               <Button
                 state="filled"
                 className="py-10 px-20 mx-5 uppercase text-xl font-bold bg-yellow-200"
               >
-                SatCamp 2024 is sold out!!!<br/>
-                Click here to join the waitlist
+                Click here to be notified<br/>
+                about future SatCamps!
               </Button>
             </a>
           </div>
