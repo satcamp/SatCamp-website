@@ -106,7 +106,7 @@ export function LightningTalksSection() {
         <div className="mt-2" style={{display: 'flex', flexDirection: 'row', gap: '10px'}}>
           <p className="ml-12 text-light">Robert Simmon</p>
           <a href="https://www.linkedin.com/in/robert-b-simmon/"><LinkedIn/></a>
-          <a href="https://medium.com/@robsimmon/making-space-data-easier-to-use-overcoming-challenges-and-expanding-access-7d16748f295c"><Medium/></a>
+          <a href="https://medium.com/@robsimmon/"><Medium/></a>
         </div>		
         
         <LightningTalkTitle flex/>
