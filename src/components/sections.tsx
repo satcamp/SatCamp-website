@@ -35,6 +35,15 @@ export const SubSectionTitle = ({ children, image_name, flex }: HTMLAttributes<H
     </h3>
   </div>;
 
+export const LightningTalkTitle = ({ children, image_name, flex }: HTMLAttributes<HTMLElement> & {image_name?: string, flex?: boolean}) =>
+  <div className="mt-4">
+    {image_name && <SubsectionImage image_name={image_name} />}
+    <h3 className={`font-bold text-2xl pb-7 mt-0 ${flex ? "flex flex-auto flex-row" : ""}`}>
+      { children }
+    </h3>
+  </div>;
+
+
 export const LocationDesc = ({ children, flex }: HTMLAttributes<HTMLElement> & {flex?: boolean}) =>
     <h2 className={`font-bold text-2xl pb-7 mt-0 ${flex ? "flex flex-auto flex-row" : ""}`}>
       Location: { children }
