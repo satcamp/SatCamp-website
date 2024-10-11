@@ -4,6 +4,7 @@ import { ReactComponent as GitHub } from "../assets/images/github.svg";
 import { ReactComponent as BlueSky } from "../assets/images/bluesky.svg";
 import { ReactComponent as Web } from "../assets/images/globe.svg";
 import { ReactComponent as Medium } from "../assets/images/medium.svg";
+import { ReactComponent as YouTube } from "../assets/images/youtube.svg";
 
 export function LightningTalksSection() {
   return (
@@ -62,6 +63,7 @@ export function LightningTalksSection() {
         <div className="mt-2" style={{display: 'flex', flexDirection: 'row', gap: '10px'}}>
           <p className="ml-12 text-light">Maxime Lenormand</p>
           <a href="https://www.linkedin.com/in/maxime-lenormand-b94640107/"><LinkedIn/></a>
+          <a href="https://www.youtube.com/watch?v=3G1kRnYxx4k/"><YouTube/></a>
         </div>
 
         <LightningTalkTitle flex/>
