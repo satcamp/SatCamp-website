@@ -100,6 +100,19 @@ export function LightningTalksSection() {
         <LightningTalkTitle flex/>
         <div style={{display: 'flex', flexDirection: 'row', gap: '10px'}}>
           <p className="text-3xl ml-12 text-light">
+            <a className="underline underline-offset-2" href="https://docs.google.com/presentation/d/1GwGEEmSm7ZmgK0EWRna9z6y2VWXZm0IpRmYfJEzTFhY/pub?start=true&loop=false&delayms=15000">
+            Japan is having a moment
+            </a>
+          </p>
+        </div>
+        <div className="mt-2" style={{display: 'flex', flexDirection: 'row', gap: '10px'}}>
+          <p className="ml-12 text-light">Robert Cheetham</p>
+          <a href="https://www.linkedin.com/in/rcheetham/"><LinkedIn/></a>
+        </div>		
+
+        <LightningTalkTitle flex/>
+        <div style={{display: 'flex', flexDirection: 'row', gap: '10px'}}>
+          <p className="text-3xl ml-12 text-light">
             <a className="underline underline-offset-2" href="https://docs.google.com/presentation/d/1KDmLnjMZvfpl_gc4itrGezDfWnX6xXtFGtAWBVjrzKk/pub?start=true&loop=false&delayms=15000">
             18 Ways to Improve Data Access
             </a>
