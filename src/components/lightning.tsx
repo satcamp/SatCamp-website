@@ -55,6 +55,19 @@ export function LightningTalksSection() {
         <LightningTalkTitle flex/>
         <div style={{display: 'flex', flexDirection: 'row', gap: '10px'}}>
           <p className="text-3xl ml-12 text-light">
+            <a className="underline" href="https://docs.google.com/presentation/d/11YOIUjib1qZLwiVGqwxD2J9WufvPpyKB8qby_8laly0/pub?start=true&loop=false&delayms=15000">
+            Breaking Points: The Challenge with Observational Data of Glaciers and Ice Sheets
+            </a>
+          </p>
+        </div>
+        <div className="mt-2" style={{display: 'flex', flexDirection: 'row', gap: '10px'}}>   
+          <p className="ml-12 text-light">Joanna Millstein</p>
+          <a href="https://www.linkedin.com/in/jdmillstein17/"><LinkedIn/></a>
+        </div>
+
+        <LightningTalkTitle flex/>
+        <div style={{display: 'flex', flexDirection: 'row', gap: '10px'}}>
+          <p className="text-3xl ml-12 text-light">
             <a className="underline underline-offset-2" href="https://docs.google.com/presentation/d/1AQJf8bcIRkLXQEq_5Yvb4eqjc54zFp5v0O3WKcHnhzc/pub?start=true&loop=false&delayms=15000">
               We're building some of the coolest & most impactful tech and people are terrified of it
             </a>
