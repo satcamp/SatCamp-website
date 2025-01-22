@@ -10,7 +10,7 @@ import { ReactComponent as Coffee } from "../assets/images/coffee.svg";
 const TABS = [
   {
     id: "hiking",
-    name: "Hiking Trail running",
+    name: "Hiking & Trail Running",
     icon: <Hiking />,
     routes: [
       {
@@ -60,7 +60,7 @@ const TABS = [
   },
   {
     id: "climbing",
-    name: "Bouldering",
+    name: "Rock Climbing",
     icon: <Climbing />,
     routes: [
       {
@@ -90,7 +90,7 @@ export const ActivitiesSection = () => {
     <section className="w-full h-screen bg-secondary text-white" id="activities">
       <div className={`w-full h-screen flex flex-col items-center bg-top bg-cover bg-image-${activeTab}`}>
         <div className="w-5/6 h-screen">
-          <SectionTitle>Activities</SectionTitle>
+          <SectionTitle>Example Activities</SectionTitle>
           <div className="mt-4">
             {TABS.map((tab) =>
               <Tab key={tab.id} active={activeTab === tab.id} onClick={() => setActiveTab(tab.id)} title={tab.name}>

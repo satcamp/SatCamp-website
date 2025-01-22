@@ -8,24 +8,22 @@ export function ThemesSection() {
         <SectionTitle>Themes</SectionTitle>
       </LeftColumn>
       <RightColumn>
-        <SubSectionTitle>Disruption</SubSectionTitle>
+        <SubSectionTitle>Innovation & Disruption</SubSectionTitle>
         <List>
-          <Item>We are entering a moment of high velocity change.</Item>
+          <Item>We are in a time of high velocity change in hardware and software innovation</Item>
           <Item>Technology, particularly advancements in generative AI, is moving quickly.</Item>
-          <Item>How do we organize our community for resiliance and growth in times of disruption?</Item>
+          <Item>How do we as a community adapt to and harness innovation in times of disruption?</Item>
         </List>
-        <SubSectionTitle>Climate</SubSectionTitle>
+        <SubSectionTitle>Climate Change Mitigation & Adaptation</SubSectionTitle>
         <List>
-          <Item>
-            Climate Change is the existential threat facing our generation.
-          </Item>
-          <Item>
-            The impacts of Climate Change are accelerating. 
-          </Item>
-          <Item>
-            Where are rising to the challenge, and where are we falling behind?
-          </Item>
+          <Item>Climate Change is the existential threat facing our generation.</Item>
+          <Item>The impacts of Climate Change are accelerating.</Item>
+          <Item>Where are rising to the challenge, and where are we falling behind?</Item>
         </List>
+        <SubSectionTitle>Social Cohesion & Grassroots Action</SubSectionTitle>
+          <Item>How do we foster new collaborations and strengthen bonds in a time of polarization?</Item>
+          <Item>What efforts demand our energy and how do we find the resilience to try?</Item>
+          <Item>How do we ensure that the benefits of our work are shared equitably?</Item>
       </RightColumn>
     </Section>
   );

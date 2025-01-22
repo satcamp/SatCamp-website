@@ -10,7 +10,7 @@ export function LightningTalksSection() {
   return (
     <Section dark id="lightning">
       <LeftColumn>
-        <SectionTitle>Lightning Talks</SectionTitle>
+        <SectionTitle>Last Year's Lightning Talks</SectionTitle>
       </LeftColumn>
       <RightColumn>
         <LightningTalkTitle flex/>
