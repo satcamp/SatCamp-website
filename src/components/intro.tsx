@@ -16,7 +16,7 @@ export function IntroductionSection() {
                 className="py-10 px-20 mx-5 uppercase text-xl font-bold bg-yellow-200"
               >
                 Click here to be notified<br/>
-                about future SatCamps!
+                about SatCamp 2025!
               </Button>
             </a>
           </div>
