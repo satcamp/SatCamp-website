@@ -19,7 +19,7 @@ export function AgendaSection() {
             </a>
           </div>
 
-        <SubSectionTitle>Wednesday, Sep 24, 2025</SubSectionTitle>
+        <SubSectionTitle>Wednesday, Sept 24, 2025</SubSectionTitle>
         <LocationDesc>Grand Assembly Hall</LocationDesc>
         <List>  
           <Item>9:00am [Optional] Outdoor Activities 1</Item>
