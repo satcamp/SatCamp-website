@@ -32,7 +32,7 @@ export function AgendaSection() {
           {/* <Item>5:30pm Unstructured time / travel to downtown Boulder</Item> */}
           <Item>6:30pm Happy Hour (location TBD)</Item>
         </List>
-        <SubSectionTitle>Thursday, Sep 25, 2025</SubSectionTitle>
+        <SubSectionTitle>Thursday, Sept 25, 2025</SubSectionTitle>
         <List>
           <LocationDesc>Grand Assembly Hall</LocationDesc>
           <Item>8:00am Breakfast (provided)</Item>
@@ -45,7 +45,7 @@ export function AgendaSection() {
           <Item>5:00pm 4 Highlighted Talks</Item> */}
           <Item>6:30pm Small Group Dinners (self-organized)</Item>
         </List>
-        <SubSectionTitle>Friday, Sep 26, 2025</SubSectionTitle>
+        <SubSectionTitle>Friday, Sept 26, 2025</SubSectionTitle>
         <List>
           <LocationDesc>Grand Assembly Hall</LocationDesc>
           <Item>8:00am Breakfast (provided)</Item>
