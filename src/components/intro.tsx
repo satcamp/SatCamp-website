@@ -16,7 +16,7 @@ export function IntroductionSection() {
                 className="py-10 px-20 mx-5 uppercase text-xl font-bold bg-yellow-200"
               >
                 Click here to be notified<br/>
-                about future SatCamps!
+                about SatCamp 2025!
               </Button>
             </a>
           </div>
@@ -25,14 +25,14 @@ export function IntroductionSection() {
             is a conference unlike anything you’ve ever attended
           </p>
           <div className="text-2xl mt-32 pb-4 border-b-1 border-white md:grid grid-cols-2 font-normal">
-            <div>October 1st-3rd, 2024</div>
-            <div className="md:text-right pt-1 md:pt-0 text-gray-400">
+            <div>September 24-26, 2025</div>
+            <div className="md:text-right pt-1 pl-2 md:pt-0 text-gray-400">
               Boulder, Colorado, USA
             </div>
           </div>
           <div className="text-2xl py-24 lg:grid lg:grid-cols-3">
             <div className="place-self-start">
-              SatCamp is a new geospatial event focused on meaningful
+              SatCamp is a geospatial event focused on meaningful
               conversation, connection, and collaboration.
             </div>
             <div className="hidden lg:flex" />

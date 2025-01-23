@@ -1,5 +1,5 @@
 import "./App.css";
-import { DiscussionsSection } from "./components/discussions";
+// import { DiscussionsSection } from "./components/discussions";
 import { IntroductionSection } from "./components/intro";
 import { TenetsSection } from "./components/tenets";
 import { ThemesSection } from "./components/themes";
@@ -16,7 +16,7 @@ function App() {
       <IntroductionSection />
       <TenetsSection />
       <ThemesSection />
-      <DiscussionsSection />
+      {/* <DiscussionsSection /> */}
       <LogisticsSection />
       <AgendaSection />
       <LightningTalksSection />

@@ -6,7 +6,7 @@ import { ReactComponent as Logo } from "../assets/images/logo.svg";
 const NAV_ITEMS = [
   {url: "/#our-tenets", label: "Our tenets"},
   {url: "/#themes", label: "Themes"},
-  {url: "/#discussions", label: "Discussions"},
+  // {url: "/#discussions", label: "Discussions"},
   {url: "/#logistics", label: "Logistics"},
   {url: "/#agenda", label: "Agenda"},
   {url: "/#activities", label: "Activities"},
@@ -44,9 +44,9 @@ export const MainNav = () =>
       )}
     </div>
     <div className="flex items-center md:w-1/4 w-1/2">
-      <a className="ml-auto" href="https://www.tickettailor.com/events/satcamp/1316756">
+      {/* <a className="ml-auto" href="https://www.tickettailor.com/events/satcamp/1316756">
         <Button state="outline" className="md:py-5 md:px-7 uppercase">Get Ticket</Button>
-      </a>
+      </a> */}
       <div className="hidden">
         <NavMenu />
       </div>

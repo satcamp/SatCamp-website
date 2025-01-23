@@ -5,7 +5,7 @@ export function AgendaSection() {
   return (
     <Section id="agenda">
       <LeftColumn>
-        <SectionTitle>Agenda</SectionTitle>
+        <SectionTitle>Tentative Agenda</SectionTitle>
       </LeftColumn>
       <RightColumn>
         <div className="mt-10">
@@ -14,48 +14,47 @@ export function AgendaSection() {
                 state="filled"
                 className="py-10 px-20 text-xl font-bold bg-yellow-500"
               >
-                WORKING AGENDA
+                IN PROGRESS
               </Button>
             </a>
           </div>
 
-        <SubSectionTitle>Tuesday October 1st, 2024</SubSectionTitle>
-        <LocationDesc>Cafe Pavillion Space</LocationDesc>
+        <SubSectionTitle>Wednesday, Sep 24, 2025</SubSectionTitle>
+        <LocationDesc>Grand Assembly Hall</LocationDesc>
         <List>  
-          <Item>11:30am Arrival at Chautauqua Lodge</Item>
-          <List>
-            <Item>Option 1: NOAA hike & tour (pre-registration required)</Item>
-            <Item>Option 2: Acclimatization activities (hikes, games)</Item>
-          </List>
-          <Item>3:15pm Welcome talk, scene setting & activities</Item>
-          <Item>4:00pm Cabin check-in</Item>
-          <Item>4:30pm Small group activities</Item>
-          <Item>5:30pm Unstructured time / travel to downtown Boulder</Item>
-          <Item>6:30pm Happy Hour at <a href="https://boulder.avantifandb.com/">Avanti Rooftop</a></Item>
+          <Item>9:00am [Optional] Outdoor Activities 1</Item>
+          <Item>1:00pm [Optional] Free Time</Item>
+          <Item>2:00pm Official Welcome</Item>
+          <Item>2:30pm Afternoon Talks & Discussions</Item>
+          {/* <Item>2:30pm Small Group Activity 1</Item> */}
+          {/* <Item>3:30pm Lightning Talks Round 1</Item> */}
+          {/* <Item>4:30pm Keynote Talk</Item> */}
+          {/* <Item>5:30pm Unstructured time / travel to downtown Boulder</Item> */}
+          <Item>6:30pm Happy Hour (location TBD)</Item>
         </List>
-        <SubSectionTitle>Wednesday October 2nd, 2024</SubSectionTitle>
+        <SubSectionTitle>Thursday, Sep 25, 2025</SubSectionTitle>
         <List>
           <LocationDesc>Grand Assembly Hall</LocationDesc>
-          <Item>8:00am Breakfast</Item>
-          <Item>9:00am Outdoor activities</Item>
-          <Item>12:00pm Lunch</Item>
-          <Item>1:00pm Lightning talks (part 1)</Item>
-          <Item>2:00pm Panel talk: GeoAI</Item>
-          <Item>3:15pm Small group activities</Item>
-          <Item>4:00pm Panel talk: Satellite Business Models</Item>
-          <Item>6:30pm Small group dinners (self-organized)</Item>
+          <Item>8:00am Breakfast (provided)</Item>
+          <Item>9:00am Outdoor Activities 2</Item>
+          <Item>1:00pm Lunch (provided)</Item>
+          <Item>2:00pm Afternoon Talks & Discussions</Item>
+          {/* <Item>2:00pm Panel Discussion 1</Item>
+          <Item>3:00pm Lightning Talks Round 2</Item>
+          <Item>4:15pm Small Group Activity 2</Item>
+          <Item>5:00pm 4 Highlighted Talks</Item> */}
+          <Item>6:30pm Small Group Dinners (self-organized)</Item>
         </List>
-        <SubSectionTitle>Thursday October 3rd, 2024</SubSectionTitle>
+        <SubSectionTitle>Friday, Sep 26, 2025</SubSectionTitle>
         <List>
           <LocationDesc>Grand Assembly Hall</LocationDesc>
-          <Item>8:00am Breakfast</Item>
-          <Item>9:00am Panel talk: Geo Platforms as a Business</Item>
-          <Item>10:00am Cabin check out</Item>
-          <Item>10:30am Outdoor activities (w/ grab & go lunch)</Item>
-          <Item>1:00pm Lightning talks (part 2)</Item>
-          <Item>2:00pm Snack time & small group time</Item>
-          <Item>3:00pm Closing session</Item>
-          <Item>4:00pm+ Optional happy hour (@ <a href="https://www.therayback.com/">Rayback Collective</a>)</Item>
+          <Item>8:00am Breakfast (provided)</Item>
+          <Item>9:00am Morning Panel</Item>
+          <Item>10:00am Outdoor Activities 3</Item>
+          <Item>1:00pm Lunch (provided)</Item>
+          <Item>2:00pm Afternoon Talks & Discussion</Item>
+          <Item>3:00pm Closing Session</Item>
+          <Item>4:00pm+ [Optional] Happy Hour @ <a href="https://www.therayback.com/">Rayback Collective</a></Item>
         </List>
       </RightColumn>
     </Section>
