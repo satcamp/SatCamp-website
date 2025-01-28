@@ -22,9 +22,8 @@ export function AgendaSection() {
         <SubSectionTitle>Wednesday, Sept 24, 2025</SubSectionTitle>
         <LocationDesc>Grand Assembly Hall</LocationDesc>
         <List>  
-          <Item>9:00am [Optional] Outdoor Activities 1</Item>
-          <Item>1:00pm [Optional] Free Time</Item>
-          <Item>2:00pm Official Welcome</Item>
+          <Item>[Optional] 9:00am Outdoor Activities</Item>
+          <Item>2:00pm OFFICIAL WELCOME SESSION</Item>
           <Item>2:30pm Afternoon Talks & Discussions</Item>
           {/* <Item>2:30pm Small Group Activity 1</Item> */}
           {/* <Item>3:30pm Lightning Talks Round 1</Item> */}
@@ -36,7 +35,7 @@ export function AgendaSection() {
         <List>
           <LocationDesc>Grand Assembly Hall</LocationDesc>
           <Item>8:00am Breakfast (provided)</Item>
-          <Item>9:00am Outdoor Activities 2</Item>
+          <Item>9:00am Outdoor Activities</Item>
           <Item>1:00pm Lunch (provided)</Item>
           <Item>2:00pm Afternoon Talks & Discussions</Item>
           {/* <Item>2:00pm Panel Discussion 1</Item>
@@ -49,12 +48,12 @@ export function AgendaSection() {
         <List>
           <LocationDesc>Grand Assembly Hall</LocationDesc>
           <Item>8:00am Breakfast (provided)</Item>
-          <Item>9:00am Morning Panel</Item>
-          <Item>10:00am Outdoor Activities 3</Item>
+          <Item>9:00am Morning Talk & Discussion</Item>
+          <Item>10:00am Outdoor Activities</Item>
           <Item>1:00pm Lunch (provided)</Item>
           <Item>2:00pm Afternoon Talks & Discussion</Item>
-          <Item>3:00pm Closing Session</Item>
-          <Item>4:00pm+ [Optional] Happy Hour @ <a href="https://www.therayback.com/">Rayback Collective</a></Item>
+          <Item>3:00pm OFFICIAL CLOSING SESSION</Item>
+          <Item>[Optional] 4:00pm+ Happy Hour @ <a href="https://www.therayback.com/">Rayback Collective</a></Item>
         </List>
       </RightColumn>
     </Section>
