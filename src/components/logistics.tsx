@@ -36,10 +36,13 @@ export function LogisticsSection() {
           {/* Tickets will be available soon!
           In the meantime, fill out <a className="underline underline-offset-2" href="https://forms.gle/yFi19miVd4urTFCz9" target="_blank">this interest form</a>
           &nbsp;to be notified when they become available. We will likely be offering a limited number of scholarships for those who need financial assistance. */}
-          Tickets are live, <a className="underline underline-offset-2" href="https://www.tickettailor.com/events/satcamp/1614718" target="_blank">get your ticket here</a>! 
-          There will be a few scholarships available for those limited by the cost of attending, you can&nbsp;
-          <a className="underline underline-offset-2" href="https://docs.google.com/forms/d/e/1FAIpQLSeCDeEYpCaGfXJSs6Z-atFfm9kan5U6j2ZUTdBJGrS0mJvKUA/viewform" target="_blank">
-          apply for a scholarship here</a>. The event is capped at 80 people, so get your ticket soon!
+          Tickets are&nbsp;
+          <a className="underline underline-offset-2" href="https://www.tickettailor.com/events/satcamp/1614718" target="_blank">available now</a>!  
+          The event is capped at 80 people and has sold out every year, so get your ticket soon!  
+          <br/><br/>  
+          If you are limited by the cost of attending, there will be a few scholarships available.&nbsp;  
+          <a className="underline underline-offset-2" href="https://docs.google.com/forms/d/e/1FAIpQLSeCDeEYpCaGfXJSs6Z-atFfm9kan5U6j2ZUTdBJGrS0mJvKUA/viewform" target="_blank">  
+          Apply for a scholarship here</a>
         </p>
       </RightColumn>
     </Section>
