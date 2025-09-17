@@ -1,5 +1,4 @@
 import { SectionTitle, SubSectionTitle, LocationDesc, List, Item, Section, LeftColumn, RightColumn } from "./sections";
-import { Button } from "./base/button";
 
 export function AgendaSection() {
   return (
