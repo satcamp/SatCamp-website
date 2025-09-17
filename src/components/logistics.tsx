@@ -1,6 +1,6 @@
 import { SectionTitle, SubSectionTitle, Section, LeftColumn, RightColumn } from "./sections";
-import { ReactComponent as Bus } from "../assets/images/bus.svg";
-import { ReactComponent as Hotel } from "../assets/images/hotel.svg";
+import Bus from "../assets/images/bus.svg?react";
+import Hotel from "../assets/images/hotel.svg?react";
 
 
 export function LogisticsSection() {

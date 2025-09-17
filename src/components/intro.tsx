@@ -1,6 +1,6 @@
 import { Button } from "./base/button";
 import { MainNav } from "./nav";
-import { ReactComponent as Activities } from "../assets/images/activities.svg";
+import Activities from "../assets/images/activities.svg?react";
 import logoUrl from "../assets/images/logos/sat-camp-logo-digital.png";
 
 export function IntroductionSection() {

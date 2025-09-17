@@ -1,16 +1,17 @@
-import type { HTMLAttributes } from "react";
+import type { HTMLAttributes, ComponentProps } from "react";
 
 import {
   Header as AriaHeader,
   Menu as AriaMenu,
   MenuTrigger as AriaMenuTrigger,
   Section as AriaSection,
-  Item,
-  ItemProps,
+  MenuItem as Item,
   Popover,
   PopoverProps,
   Separator,
 } from "react-aria-components";
+
+type ItemProps = ComponentProps<typeof Item>;
 import { tv } from "tailwind-variants";
 
 export const menu = tv({
