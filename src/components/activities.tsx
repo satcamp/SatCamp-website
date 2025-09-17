@@ -1,10 +1,10 @@
 import { HTMLAttributes, MouseEventHandler, useState } from "react";
 import { SectionTitle } from "./sections";
-import { ReactComponent as Mountain } from "../assets/images/mountain.svg";
-import { ReactComponent as Hiking } from "../assets/images/hiking.svg";
-import { ReactComponent as Biking } from "../assets/images/bike.svg";
-import { ReactComponent as Climbing } from "../assets/images/climbing.svg";
-import { ReactComponent as Coffee } from "../assets/images/coffee.svg";
+import Mountain from "../assets/images/mountain.svg?react";
+import Hiking from "../assets/images/hiking.svg?react";
+import Biking from "../assets/images/bike.svg?react";
+import Climbing from "../assets/images/climbing.svg?react";
+import Coffee from "../assets/images/coffee.svg?react";
 
 
 const TABS = [

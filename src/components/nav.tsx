@@ -1,7 +1,7 @@
 import { Menu } from "lucide-react";
 import { MenuContent, MenuItem, MenuTrigger, } from "./base/menu";
 import { Button } from "./base/button";
-import { ReactComponent as Logo } from "../assets/images/logo.svg";
+import Logo from "../assets/images/logo.svg?react";
 
 const NAV_ITEMS = [
   {url: "/#our-tenets", label: "Our tenets"},

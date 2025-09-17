@@ -1,10 +1,10 @@
 import { SectionTitle, LightningTalkTitle, Section, LeftColumn, RightColumn } from "./sections";
-import { ReactComponent as LinkedIn } from "../assets/images/linkedin.svg";
-import { ReactComponent as GitHub } from "../assets/images/github.svg";
-import { ReactComponent as BlueSky } from "../assets/images/bluesky.svg";
-import { ReactComponent as Web } from "../assets/images/globe.svg";
-import { ReactComponent as Medium } from "../assets/images/medium.svg";
-import { ReactComponent as YouTube } from "../assets/images/youtube.svg";
+import LinkedIn from "../assets/images/linkedin.svg?react";
+import GitHub from "../assets/images/github.svg?react";
+import BlueSky from "../assets/images/bluesky.svg?react";
+import Web from "../assets/images/globe.svg?react";
+import Medium from "../assets/images/medium.svg?react";
+import YouTube from "../assets/images/youtube.svg?react";
 
 export function LightningTalksSection() {
   return (
