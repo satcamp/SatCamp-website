@@ -13,6 +13,7 @@ export function AgendaSection() {
         <List>  
           <Item>[Optional] 9:00am Outdoor Activities</Item>
           <Item>1:00pm Registration Opens</Item>
+          <Item>2:00pm Official Welcome</Item>
           <Item>2:30pm Small Group Meet & Greet</Item>
           <Item>3:30pm Lightning Talks Round 1</Item>
           <Item>4:30pm Keynote Presentation - Camila Mahon</Item>
