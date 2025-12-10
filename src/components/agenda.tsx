@@ -4,11 +4,11 @@ export function AgendaSection() {
   return (
     <Section id="agenda">
       <LeftColumn>
-        <SectionTitle>Agenda</SectionTitle>
+        <SectionTitle>Tentative Agenda</SectionTitle>
+        Based on SatCamp 2025, times might change.
       </LeftColumn>
       <RightColumn>
-
-        <SubSectionTitle>Wednesday, Sept 24, 2025</SubSectionTitle>
+        <SubSectionTitle>Wednesday, Sept 23, 2026</SubSectionTitle>
         <LocationDesc>Grand Assembly Hall</LocationDesc>
         <List>  
           <Item>[Optional] 9:00am Outdoor Activities</Item>
@@ -16,28 +16,28 @@ export function AgendaSection() {
           <Item>2:00pm Official Welcome</Item>
           <Item>2:30pm Small Group Meet & Greet</Item>
           <Item>3:30pm Lightning Talks Round 1</Item>
-          <Item>4:30pm Keynote Presentation - Camila Mahon</Item>
+          <Item>4:30pm Keynote Presentation</Item>
           <Item>5:00pm Cabin Check-In / Head Downtown</Item>
           <Item>6:30pm Happy Hour @ <a href="https://www.avantifandb.com/location/avanti-boulder/">Avanti</a></Item>
         </List>
-        <SubSectionTitle>Thursday, Sept 25, 2025</SubSectionTitle>
+        <SubSectionTitle>Thursday, Sept 24, 2026</SubSectionTitle>
         <List>
           <LocationDesc>Grand Assembly Hall</LocationDesc>
           <Item>8:30am Breakfast (provided)</Item>
           <Item>9:00am Outdoor Activities</Item>
           <Item>1:00pm Lunch (provided)</Item>
-          <Item>2:00pm Panel: Can satellites outpace wildfires?</Item>
+          <Item>2:00pm Panel 1</Item>
           <Item>3:15pm Break</Item>
           <Item>3:45pm Presentations</Item>
           <Item>4:45pm Small Group Activity</Item>
           <Item>5:30pm Small Group Dinners (self-organized)</Item>
         </List>
-        <SubSectionTitle>Friday, Sept 26, 2025</SubSectionTitle>
+        <SubSectionTitle>Friday, Sept 25, 2026</SubSectionTitle>
         <List>
           <LocationDesc>Grand Assembly Hall</LocationDesc>
           <Item>8:00am Cabin Checkout (deadline 10:30am)</Item>
           <Item>8:00am Breakfast (provided)</Item>
-          <Item>9:00am Panel: Embeddings & GeoAI</Item>
+          <Item>9:00am Panel 2</Item>
           <Item>10:00am Outdoor Activities</Item>
           <Item>1:00pm Lunch (provided)</Item>
           <Item>2:00pm Lightning Talks Round 2</Item>

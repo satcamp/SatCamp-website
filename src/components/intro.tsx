@@ -10,13 +10,13 @@ export function IntroductionSection() {
         <MainNav />
         <div className="w-full px-5 md:px-0 md:w-5/6 relative mt-20 flex flex-col items-center">
           <div className="mt-10">
-            <a href="https://www.tickettailor.com/events/satcamp/1614718" target="_blank">
+            <a href="https://forms.gle/3Du18t3dArRK8JTF9" target="_blank">
               <Button
                 state="filled"
-                className="py-10 px-20 mx-5 uppercase text-xl font-bold bg-yellow-200"
+                className="py-10 px-20 mx-5 uppercase text-xl font-bold bg-yellow-200 hover:white"
               >
-                Get your ticket for<br/>
-                SatCamp 2025!
+                Fill out the SatCamp 2026 <br/>
+                Interest Form to get updates!
               </Button>
             </a>
           </div>
@@ -25,7 +25,7 @@ export function IntroductionSection() {
             is a conference unlike anything you’ve ever attended
           </p>
           <div className="text-2xl mt-32 pb-4 border-b-1 border-white md:grid grid-cols-2 font-normal">
-            <div>September 24-26, 2025</div>
+            <div>September 23-25, 2026</div>
             <div className="md:text-right pt-1 pl-2 md:pt-0 text-gray-400">
               Boulder, Colorado, USA
             </div>
@@ -38,7 +38,7 @@ export function IntroductionSection() {
             <div className="hidden lg:flex" />
             <div className="pt-3 lg:pt-0">
               Share and scheme while hiking, biking, climbing, running, and
-              caffeinating!
+              leaf peeping!
               <Activities className="w-full mt-3" />
             </div>
           </div>
