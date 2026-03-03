@@ -12,7 +12,7 @@ export default function SatCamp2025() {
           <SectionTitle>SatCamp 2025</SectionTitle>
         </LeftColumn>
         <RightColumn>
-          <SubSectionTitle>Themes</SubSectionTitle>
+          <SubSectionTitle>Themes 2025</SubSectionTitle>
           <SubSectionTitle>Innovation & Disruption</SubSectionTitle>
           <List>
             <Item>We are in a time of high velocity change in hardware and software innovation</Item>
@@ -34,7 +34,7 @@ export default function SatCamp2025() {
 
       <Section>
         <LeftColumn>
-          <SectionTitle>Agenda</SectionTitle>
+          <SectionTitle>Agenda 2025</SectionTitle>
         </LeftColumn>
         <RightColumn>
           <SubSectionTitle>Wednesday, Sept 24, 2025</SubSectionTitle>
@@ -77,7 +77,7 @@ export default function SatCamp2025() {
 
       <Section dark>
         <LeftColumn>
-          <SectionTitle>Lightning Talks</SectionTitle>
+          <SectionTitle>Lightning Talks 2025</SectionTitle>
         </LeftColumn>
         <RightColumn>
           <LightningTalkTitle flex/>
