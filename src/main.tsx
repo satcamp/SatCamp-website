@@ -11,6 +11,9 @@ import {
 } from "react-router-dom"
 import WebFont from 'webfontloader'
 import App from './App.tsx'
+import SatCamp2025 from './pages/SatCamp2025.tsx'
+import SatCamp2024 from './pages/SatCamp2024.tsx'
+import SatCamp2023 from './pages/SatCamp2023.tsx'
 import './index.css'
 
 WebFont.load({
@@ -20,7 +23,10 @@ WebFont.load({
 });
 
 const router = createBrowserRouter([
-  { path: "/", element: <App />, },
+  { path: "/", element: <App /> },
+  { path: "/2025", element: <SatCamp2025 /> },
+  { path: "/2024", element: <SatCamp2024 /> },
+  { path: "/2023", element: <SatCamp2023 /> },
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
