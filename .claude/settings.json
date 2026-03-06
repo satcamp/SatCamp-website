@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git -C /Users/tylere/Documents/GitHub/tylere/SatCamp log:*)",
+      "Bash(git -C /Users/tylere/Documents/GitHub/tylere/SatCamp show:*)",
+      "Bash(mkdir -p /Users/tylere/Documents/GitHub/tylere/SatCamp/src/pages)"
+    ]
+  }
+}
