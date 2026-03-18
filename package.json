@@ -47,6 +47,10 @@
     "minimatch": "^3.1.5",
     "ajv": "^6.14.0",
     "rollup": "^4.59.0",
+<<<<<<< fix/dependabot-61-flatted
     "flatted": ">=3.4.0"
+=======
+    "tar": "^7.5.10"
+>>>>>>> main
   }
 }
