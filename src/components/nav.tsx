@@ -5,12 +5,35 @@ import Logo from "../assets/images/logo.svg?react";
 
 const NAV_ITEMS = [
   {url: "/#our-tenets", label: "Our tenets"},
-  {url: "/#themes", label: "Themes"},
   // {url: "/#discussions", label: "Discussions"},
   {url: "/#logistics", label: "Logistics"},
   {url: "/#agenda", label: "Agenda"},
   {url: "/#activities", label: "Activities"},
 ];
+
+const PAST_CAMPS = [
+  {url: "/2025", label: "2025"},
+  {url: "/2024", label: "2024"},
+  {url: "/2023", label: "2023"},
+];
+
+const PastCampsDropdown = () => (
+  <MenuTrigger>
+    <Button
+      intent="secondary"
+      className="bg-transparent border-none shadow-none uppercase cursor-pointer p-0 text-base font-normal"
+    >
+      Past Camps
+    </Button>
+    <MenuContent className="bg-white">
+      {PAST_CAMPS.map((camp) =>
+        <MenuItem key={camp.label}>
+          <a href={camp.url}>{camp.label}</a>
+        </MenuItem>
+      )}
+    </MenuContent>
+  </MenuTrigger>
+);
 
 const NavMenu = () => {
   return (
@@ -28,6 +51,11 @@ const NavMenu = () => {
             <a href={ item.url }>{ item.label }</a>
           </MenuItem>
         )}
+        {PAST_CAMPS.map((camp) =>
+          <MenuItem key={camp.label}>
+            <a href={camp.url}>{camp.label}</a>
+          </MenuItem>
+        )}
       </MenuContent>
     </MenuTrigger>
   )
@@ -38,10 +66,11 @@ export const MainNav = () =>
     <div className="flex items-center w-1/4">
       <a href="#"><Logo /></a>
     </div>
-    <div className="items-center justify-between w-1/2 uppercase hidden md:flex">
+    <div className="items-center justify-between w-1/2 uppercase hidden md:flex gap-4">
       {NAV_ITEMS.map((item) =>
         <a key={item.label} href={ item.url }>{ item.label }</a>
       )}
+      <PastCampsDropdown />
     </div>
     <div className="flex items-center md:w-1/4 w-1/2">
       <a className="ml-auto" href="https://www.tickettailor.com/events/satcamp/2105822" target="_blank">
