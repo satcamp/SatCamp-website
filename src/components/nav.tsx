@@ -3,6 +3,12 @@ import { MenuContent, MenuItem, MenuTrigger, } from "./base/menu";
 import { Button } from "./base/button";
 import Logo from "../assets/images/logo.svg?react";
 
+// Prefix internal links with Vite's base path so they resolve correctly both
+// at the custom-domain root ("/") and at the GitHub Pages project subpath
+// ("/SatCamp-website/"). BASE_URL has a trailing slash; drop it before joining.
+const withBase = (path: string) =>
+  import.meta.env.BASE_URL.replace(/\/$/, "") + path;
+
 const NAV_ITEMS = [
   {url: "/#our-tenets", label: "Our tenets"},
   // {url: "/#discussions", label: "Discussions"},
@@ -28,7 +34,7 @@ const PastCampsDropdown = () => (
     <MenuContent className="bg-white">
       {PAST_CAMPS.map((camp) =>
         <MenuItem key={camp.label}>
-          <a href={camp.url}>{camp.label}</a>
+          <a href={withBase(camp.url)}>{camp.label}</a>
         </MenuItem>
       )}
     </MenuContent>
@@ -48,12 +54,12 @@ const NavMenu = () => {
       <MenuContent className="bg-white">
         {NAV_ITEMS.map((item) =>
           <MenuItem key={item.label}>
-            <a href={ item.url }>{ item.label }</a>
+            <a href={ withBase(item.url) }>{ item.label }</a>
           </MenuItem>
         )}
         {PAST_CAMPS.map((camp) =>
           <MenuItem key={camp.label}>
-            <a href={camp.url}>{camp.label}</a>
+            <a href={withBase(camp.url)}>{camp.label}</a>
           </MenuItem>
         )}
       </MenuContent>
@@ -68,7 +74,7 @@ export const MainNav = () =>
     </div>
     <div className="items-center justify-between w-1/2 uppercase hidden md:flex gap-4">
       {NAV_ITEMS.map((item) =>
-        <a key={item.label} href={ item.url }>{ item.label }</a>
+        <a key={item.label} href={ withBase(item.url) }>{ item.label }</a>
       )}
       <PastCampsDropdown />
     </div>
