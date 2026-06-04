@@ -22,12 +22,17 @@ WebFont.load({
   },
 });
 
+// Mount the router under Vite's configured base so the app works both at the
+// custom-domain root ("/") and at the GitHub Pages project subpath
+// ("/SatCamp-website/"). BASE_URL has a trailing slash; strip it for basename.
+const basename = import.meta.env.BASE_URL.replace(/\/$/, "") || "/";
+
 const router = createBrowserRouter([
   { path: "/", element: <App /> },
   { path: "/2025", element: <SatCamp2025 /> },
   { path: "/2024", element: <SatCamp2024 /> },
   { path: "/2023", element: <SatCamp2023 /> },
-]);
+], { basename });
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>

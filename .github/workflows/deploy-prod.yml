@@ -39,6 +39,10 @@ jobs:
         run: yarn install
       - name: Build
         run: yarn build
+        env:
+          # Served from the project subpath until satcamp.xyz is attached;
+          # drop this line once the site moves to the custom-domain root.
+          VITE_BASE: /SatCamp-website/
       - name: SPA fallback for GitHub Pages
         run: cp dist/index.html dist/404.html
       - name: Setup Pages
