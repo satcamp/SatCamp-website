@@ -1,9 +1,13 @@
 import "../App.css";
+import { MainNav } from "../components/nav";
 import { SectionTitle, SubSectionTitle, List, Item, Section, LeftColumn, RightColumn } from "../components/sections";
 
 export default function SatCamp2023() {
   return (
     <>
+      <Section dark>
+        <MainNav />
+      </Section>
       <Section dark>
         <LeftColumn>
           <SectionTitle>SatCamp 2023</SectionTitle>
