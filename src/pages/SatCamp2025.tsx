@@ -1,4 +1,5 @@
 import "../App.css";
+import { MainNav } from "../components/nav";
 import { SectionTitle, SubSectionTitle, LightningTalkTitle, LocationDesc, List, Item, Section, LeftColumn, RightColumn } from "../components/sections";
 import LinkedIn from "../assets/images/linkedin.svg?react";
 import GitHub from "../assets/images/github.svg?react";
@@ -7,6 +8,9 @@ import Web from "../assets/images/globe.svg?react";
 export default function SatCamp2025() {
   return (
     <>
+      <Section dark>
+        <MainNav />
+      </Section>
       <Section dark>
         <LeftColumn>
           <SectionTitle>SatCamp 2025</SectionTitle>
