@@ -70,7 +70,7 @@ const NavMenu = () => {
 export const MainNav = () =>
   <nav className="flex items-center justify-between h-88px pt-4 md:pt-8 w-full px-5 md:px-0 md:w-5/6 static top-0">
     <div className="flex items-center w-1/4">
-      <a href="#"><Logo /></a>
+      <a href="/"><Logo /></a>
     </div>
     <div className="items-center justify-between w-1/2 uppercase hidden md:flex gap-4">
       {NAV_ITEMS.map((item) =>
