@@ -75,7 +75,7 @@ export default function SatCamp2025() {
         </RightColumn>
       </Section>
 
-      <Section dark>
+      <Section dark id="lightning-talks">
         <LeftColumn>
           <SectionTitle>Lightning Talks 2025</SectionTitle>
         </LeftColumn>
