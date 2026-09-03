@@ -50,7 +50,7 @@ export const LocationDesc = ({ children, flex }: HTMLAttributes<HTMLElement> & {
     </h2>;
 
 export const List = ({ children }: HTMLAttributes<HTMLElement>) =>
-  <ul className="list-disc ml-8 marker:text-sm font-light text-xl">{ children }</ul>;
+  <ul className="list-disc ml-8 marker:text-sm font-light text-xl space-y-7">{ children }</ul>;
 
 export const Item = ({ children }: HTMLAttributes<HTMLElement>) =>
-  <li className="pb-7">{ children }</li>;
+  <li>{ children }</li>;
