@@ -7,6 +7,7 @@ import {
   LeftColumn,
   RightColumn,
 } from "./sections";
+import OrlaDermody from "../assets/images/headshots/OrlaDermody.jpg";
 
 export function SessionsSection(props: {dark?: boolean}) {
   return (
@@ -21,6 +22,37 @@ export function SessionsSection(props: {dark?: boolean}) {
         
         <p>
           Please fill out our <a className="underline underline-offset-2" href="https://docs.google.com/forms/d/e/1FAIpQLSciLlkYU89GdCJjyA-9aRT9MDqcymOyRoId3bUhpap0q_pJHQ/viewform">interest form</a> if you&apos;d like to present in our Lightning Talks or Show & Tell sessions!
+        </p>
+
+
+        <SubSectionTitle>Keynote: Orla Dermody</SubSectionTitle>
+
+        <div className="flex items-center gap-4 mb-4">
+          <img src={OrlaDermody} alt="Orla Dermody" className="rounded-full h-28 shrink-0" />
+          <p className="font-semibold">Orla Dermody<br/>VP of Data Products, Xoople</p>
+        </div>
+
+        <p>
+          Orla Dermody loves technology but she cares a lot more about whether anyone actually uses it.
+          At Xoople, she leads teams working to create a system of record for the physical world, one
+          that helps organizations understand what is changing on the Earth's surface, and what they
+          should do about it. From infrastructure risk to climate resilience, her focus is on making
+          that data useful, usable, and embedded in everyday decision-making.
+        </p>
+        <br/>
+        <p>
+          Her perspective is shaped by her experience as a frustrated user of EO data at Corteva, a
+          product lead at Maxar, and most recently as VP of Data Products at Xoople. Across all these
+          roles she has worked at the intersection of product, engineering, science, and commercial
+          reality — helping teams move from promising ideas to products that drive real outcomes.
+        </p>
+        <br/>
+        <p>
+          At SatCamp, Orla will bring a cynically optimistic perspective on the promise and challenge
+          of creating value from EO data. Her optimism is shaped by a belief that AI will fundamentally
+          change how this data gets used; her cynicism comes from the knowledge that it remains a hard
+          problem. Knowing a little about who attends SatCamp, she's super excited to dig in with other
+          folks also trying to solve this problem!
         </p>
 
 
