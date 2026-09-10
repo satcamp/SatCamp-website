@@ -10,6 +10,7 @@ export function AgendaSection(props: { dark?: boolean }) {
         <SubSectionTitle>Wednesday, Sept 23, 2026</SubSectionTitle>
         <LocationDesc>Grand Assembly Hall — Food Provided: Light Afternoon Snack</LocationDesc>
         <List>
+          <Item>[Optional] 9:00am Outdoor Activities</Item>
           <Item>1:00pm – 2:00pm Check-in + Registration</Item>
           <Item>2:00pm – 2:30pm Welcome Activity + Snack (provided)</Item>
           <Item>2:30pm – 3:30pm Small Group Time</Item>
