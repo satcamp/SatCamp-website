@@ -27,8 +27,8 @@ export const SectionTitle = ({ children }: HTMLAttributes<HTMLElement>) =>
 export const SubsectionImage = ({ image_name }: {image_name: string}) =>
   <div className={`rounded-2xl h-80 w-full mb-14 bg-cover bg-center bg-image-${image_name}`} />;
 
-export const SubSectionTitle = ({ children, image_name, flex }: HTMLAttributes<HTMLElement> & {image_name?: string, flex?: boolean}) =>
-  <div className="mt-16">
+export const SubSectionTitle = ({ children, image_name, flex, id }: HTMLAttributes<HTMLElement> & {image_name?: string, flex?: boolean, id?: string}) =>
+  <div id={id} className="mt-16">
     {image_name && <SubsectionImage image_name={image_name} />}
     <h3 className={`font-bold text-4xl pb-7 mt-0 ${flex ? "flex flex-auto flex-row" : ""}`}>
       { children }

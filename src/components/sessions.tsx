@@ -25,7 +25,7 @@ export function SessionsSection(props: {dark?: boolean}) {
         </p>
 
 
-        <SubSectionTitle>Keynote: Orla Dermody</SubSectionTitle>
+        <SubSectionTitle id="session-keynote">Keynote: Orla Dermody</SubSectionTitle>
 
         <div className="flex items-center gap-4 mb-4">
           <img src={OrlaDermody} alt="Orla Dermody" className="rounded-full h-28 shrink-0" />
@@ -56,7 +56,7 @@ export function SessionsSection(props: {dark?: boolean}) {
         </p>
 
 
-        <SubSectionTitle>Lightning Talks</SubSectionTitle>
+        <SubSectionTitle id="session-lightning">Lightning Talks</SubSectionTitle>
 
         <p>
           SatCamp Lightning Talks are an <a className="underline underline-offset-2" href="https://www.ignitetalks.io/about">Ignite-style</a> presentation format designed to challenge presenters to be creative through several constraints:
@@ -81,7 +81,7 @@ export function SessionsSection(props: {dark?: boolean}) {
         </p>
 
 
-        <SubSectionTitle>Show & Tell</SubSectionTitle>
+        <SubSectionTitle id="session-show-and-tell">Show & Tell</SubSectionTitle>
 
         <p>
           Show & Tell is new at SatCamp 2026!
@@ -90,7 +90,7 @@ export function SessionsSection(props: {dark?: boolean}) {
         </p>
 
 
-        <SubSectionTitle>Panel: The Last Mile of Geo</SubSectionTitle>
+        <SubSectionTitle id="session-panel-last-mile">Panel: The Last Mile of Geo</SubSectionTitle>
 
         <p>
           In tune with our theme, this panel explores what it takes to turn a
@@ -110,7 +110,7 @@ export function SessionsSection(props: {dark?: boolean}) {
         </List>
 
 
-        <SubSectionTitle>Panel: Where's Your Line?</SubSectionTitle>
+        <SubSectionTitle id="session-panel-dual-use">Panel: Where's Your Line?</SubSectionTitle>
 
         <p>
           <i>Exploring Alignment of Personal Ethics with Dual-Use Geospatial Technology: </i>
