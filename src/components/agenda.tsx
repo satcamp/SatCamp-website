@@ -28,7 +28,7 @@ export function AgendaSection(props: { dark?: boolean }) {
           <Item>2:00pm – 3:00pm <a className="underline underline-offset-2" href="#session-panel-last-mile">Panel: The Last Mile of Geo</a></Item>
           <Item>3:00pm – 3:30pm Break</Item>
           <Item>3:30pm – 4:30pm <a className="underline underline-offset-2" href="#session-show-and-tell">Show & Tell</a></Item>
-          <Item>4:30pm – 5:00pm Small Group Time</Item>
+          <Item>4:30pm – 5:15pm Small Group Time</Item>
           <Item>Dinner on your own (going with other campers encouraged)</Item>
         </List>
         <SubSectionTitle>Friday, Sept 25, 2026</SubSectionTitle>
