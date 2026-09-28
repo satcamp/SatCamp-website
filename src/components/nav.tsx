@@ -83,8 +83,8 @@ export const MainNav = () =>
       <PastCampsDropdown />
     </div>
     <div className="flex items-center md:w-1/4 w-1/2">
-      <a className="ml-auto" href="https://www.tickettailor.com/events/satcamp/2105822" target="_blank">
-        <Button state="outline" className="md:py-5 md:px-7 uppercase">Get Ticket</Button>
+      <a className="ml-auto" href="https://forms.gle/edDu9bxoVjQ6QT4a8" target="_blank">
+        <Button state="outline" className="md:py-5 md:px-7 uppercase">Stay Updated</Button>
       </a>
       <div className="hidden">
         <NavMenu />
