@@ -33,16 +33,9 @@ export function LogisticsSection() {
           Tickets
         </SubSectionTitle>
         <p className="ml-12 text-light">
-          {/* Tickets will be available soon!
-          In the meantime, fill out <a className="underline underline-offset-2" href="https://forms.gle/3Du18t3dArRK8JTF9" target="_blank">this interest form</a>
-          &nbsp;to be notified when they become available. We will likely be offering a limited number of scholarships for those who need financial assistance. */}
-          Tickets are&nbsp;
-          <a className="underline underline-offset-2" href="https://www.tickettailor.com/events/satcamp/2105822" target="_blank">available now</a>!  
-          The event is capped at 80 people and has sold out every year, so get your ticket soon!  
-          <br/><br/>  
-          If you are limited by the cost of attending, there will be a few scholarships available.&nbsp;  
-          <a className="underline underline-offset-2" href="https://docs.google.com/forms/d/e/1FAIpQLSfae7OyhepE_ba9_f--jhsCQN4__dOgXAmAS4MFMg7k-7YK0Q/viewform" target="_blank">  
-          Apply for a scholarship here</a>
+          SatCamp 2026 has wrapped up! Fill out&nbsp;
+          <a className="underline underline-offset-2" href="https://forms.gle/edDu9bxoVjQ6QT4a8" target="_blank">this interest form</a>
+          &nbsp;to be notified when tickets for future SatCamps become available.
         </p>
       </RightColumn>
     </Section>
